@@ -1,0 +1,421 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4520 ]
+[d frameptr 4065 ]
+"14 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/scheduler.c
+[e E2584 . `uc
+READY 0
+RUNNING 1
+WAITING 2
+WAITING_SEM 3
+]
+"7 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/kernel.c
+[e E2584 . `uc
+READY 0
+RUNNING 1
+WAITING 2
+WAITING_SEM 3
+]
+"29 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/semaphore.c
+[e E2584 . `uc
+READY 0
+RUNNING 1
+WAITING 2
+WAITING_SEM 3
+]
+"7 /opt/microchip/xc8/v2.46/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"4 /opt/microchip/xc8/v2.46/pic/sources/c99/common/fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 /opt/microchip/xc8/v2.46/pic/sources/c99/common/float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 /opt/microchip/xc8/v2.46/pic/sources/c99/common/ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 /opt/microchip/xc8/v2.46/pic/sources/c99/common/ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 /opt/microchip/xc8/v2.46/pic/sources/c99/common/ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 /opt/microchip/xc8/v2.46/pic/sources/c99/common/ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"7 /opt/microchip/xc8/v2.46/pic/sources/c99/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+[v i2___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 /opt/microchip/xc8/v2.46/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 /opt/microchip/xc8/v2.46/pic/sources/c99/common/sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 /opt/microchip/xc8/v2.46/pic/sources/c99/common/sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 /opt/microchip/xc8/v2.46/pic/sources/c99/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+[v i2___wmul __wmul `(ui  1 e 2 0 ]
+"15 /opt/microchip/xc8/v2.46/pic/sources/c99/common/Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 /opt/microchip/xc8/v2.46/pic/sources/c99/common/Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"9 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/kernel.c
+[v _create_task create_task `(v  1 e 1 0 ]
+"48
+[v _init_zero init_zero `(v  1 e 1 0 ]
+"60
+[v _config_hardware config_hardware `(v  1 e 1 0 ]
+"69
+[v _start_os start_os `(v  1 e 1 0 ]
+"76
+[v _delay_task delay_task `(v  1 e 1 0 ]
+"94
+[v _idle idle `(v  1 e 1 0 ]
+"124
+[v _config_adc config_adc `(v  1 e 1 0 ]
+"130
+[v _config_ports config_ports `(v  1 e 1 0 ]
+"140
+[v _isr_timer isr_timer `IIH(v  1 e 1 0 ]
+"9 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/main.c
+[v _main main `(i  1 e 2 0 ]
+"264 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/mem.c
+[v _SRAMInitHeap SRAMInitHeap `(v  1 e 1 0 ]
+"310
+[v __SRAMmerge _SRAMmerge `(uc  1 e 1 0 ]
+"34 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/scheduler.c
+[v _round_robin_scheduler round_robin_scheduler `(ui  1 e 2 0 ]
+[v i2_round_robin_scheduler round_robin_scheduler `(ui  1 e 2 0 ]
+"51
+[v _scheduler scheduler `(ui  1 e 2 0 ]
+[v i2_scheduler scheduler `(ui  1 e 2 0 ]
+"9 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/semaphore.c
+[v _sem_init sem_init `(v  1 e 1 0 ]
+"21
+[v _sem_wait sem_wait `(v  1 e 1 0 ]
+"42
+[v _sem_post sem_post `(v  1 e 1 0 ]
+"9 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/user_app.c
+[v _tarefa_1 tarefa_1 `(v  1 e 1 0 ]
+"23
+[v _tarefa_2 tarefa_2 `(v  1 e 1 0 ]
+"21 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/mem.h
+[v __uDynamicHeap _uDynamicHeap `[80]uc  1 e 80 0 ]
+[s S278 . 1 `uc 1 RD0 1 0 :1:0 
+`uc 1 RD1 1 0 :1:1 
+`uc 1 RD2 1 0 :1:2 
+`uc 1 RD3 1 0 :1:3 
+`uc 1 RD4 1 0 :1:4 
+`uc 1 RD5 1 0 :1:5 
+`uc 1 RD6 1 0 :1:6 
+`uc 1 RD7 1 0 :1:7 
+]
+"669 /opt/microchip/xc8/v2.46/pic/include/proc/pic18f4520.h
+[s S287 . 1 `uc 1 PSP0 1 0 :1:0 
+`uc 1 PSP1 1 0 :1:1 
+`uc 1 PSP2 1 0 :1:2 
+`uc 1 PSP3 1 0 :1:3 
+`uc 1 PSP4 1 0 :1:4 
+`uc 1 PSP5 1 0 :1:5 
+`uc 1 PSP6 1 0 :1:6 
+`uc 1 PSP7 1 0 :1:7 
+]
+[s S296 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 P1B 1 0 :1:5 
+`uc 1 P1C 1 0 :1:6 
+`uc 1 P1D 1 0 :1:7 
+]
+[s S301 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 SS2 1 0 :1:7 
+]
+[u S304 . 1 `S278 1 . 1 0 `S287 1 . 1 0 `S296 1 . 1 0 `S301 1 . 1 0 ]
+[v _PORTDbits PORTDbits `VES304  1 e 1 @3971 ]
+[s S238 . 1 `uc 1 LATD0 1 0 :1:0 
+`uc 1 LATD1 1 0 :1:1 
+`uc 1 LATD2 1 0 :1:2 
+`uc 1 LATD3 1 0 :1:3 
+`uc 1 LATD4 1 0 :1:4 
+`uc 1 LATD5 1 0 :1:5 
+`uc 1 LATD6 1 0 :1:6 
+`uc 1 LATD7 1 0 :1:7 
+]
+"1340
+[s S247 . 1 `uc 1 LD0 1 0 :1:0 
+`uc 1 LD1 1 0 :1:1 
+`uc 1 LD2 1 0 :1:2 
+`uc 1 LD3 1 0 :1:3 
+`uc 1 LD4 1 0 :1:4 
+`uc 1 LD5 1 0 :1:5 
+`uc 1 LD6 1 0 :1:6 
+`uc 1 LD7 1 0 :1:7 
+]
+[u S256 . 1 `S238 1 . 1 0 `S247 1 . 1 0 ]
+[v _LATDbits LATDbits `VES256  1 e 1 @3980 ]
+"1477
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S379 . 1 `uc 1 TRISD0 1 0 :1:0 
+`uc 1 TRISD1 1 0 :1:1 
+`uc 1 TRISD2 1 0 :1:2 
+`uc 1 TRISD3 1 0 :1:3 
+`uc 1 TRISD4 1 0 :1:4 
+`uc 1 TRISD5 1 0 :1:5 
+`uc 1 TRISD6 1 0 :1:6 
+`uc 1 TRISD7 1 0 :1:7 
+]
+"2175
+[u S397 . 1 `S379 1 . 1 0 `S278 1 . 1 0 ]
+[v _TRISDbits TRISDbits `VES397  1 e 1 @3989 ]
+"4690
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"4775
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S206 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"6191
+[s S213 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 T0PS3 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 T016BIT 1 0 :1:6 
+]
+[u S220 . 1 `S206 1 . 1 0 `S213 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES220  1 e 1 @4053 ]
+"6251
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"6272
+[v _STATUS STATUS `VEuc  1 e 1 @4056 ]
+"6399
+[v _BSR BSR `VEuc  1 e 1 @4064 ]
+"6462
+[v _WREG WREG `VEuc  1 e 1 @4072 ]
+[s S341 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 NOT_RBPU 1 0 :1:7 
+]
+"6647
+[s S344 . 1 `uc 1 RBIP 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 TMR0IP 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INTEDG2 1 0 :1:4 
+`uc 1 INTEDG1 1 0 :1:5 
+`uc 1 INTEDG0 1 0 :1:6 
+`uc 1 nRBPU 1 0 :1:7 
+]
+[s S353 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 RBPU 1 0 :1:7 
+]
+[u S356 . 1 `S341 1 . 1 0 `S344 1 . 1 0 `S353 1 . 1 0 ]
+[v _INTCON2bits INTCON2bits `VES356  1 e 1 @4081 ]
+[s S133 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"6724
+[s S142 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S151 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S155 . 1 `S133 1 . 1 0 `S142 1 . 1 0 `S151 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES155  1 e 1 @4082 ]
+"6904
+[v _STKPTR STKPTR `VEuc  1 e 1 @4092 ]
+"6977
+[v _TOS TOS `VEum  1 e 3 @4093 ]
+[s S54 stack 98 `[32]um 1 stack_data 96 0 `ui 1 stack_size 2 96 ]
+"7 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/kernel.c
+[s S63 tcb 110 `ui 1 task_ID 2 0 `ui 1 task_PRIOR 2 2 `S54 1 task_STACK 98 4 `*.37(v 1 task_PTR 2 102 `uc 1 task_WREG 1 104 `uc 1 task_BSRREG 1 105 `uc 1 task_STATUSREG 1 106 `E2584 1 task_STATE 1 107 `ui 1 task_time_sleeping 2 108 ]
+[s S73 ready_queue 444 `[4]S63 1 tasks 440 0 `ui 1 queue_size 2 440 `ui 1 task_running 2 442 ]
+[v _Ready_queue Ready_queue `S73  1 e 444 0 ]
+"7 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/user_app.c
+[v _buffer buffer `*.39uc  1 e 2 0 ]
+"9 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"25
+} 0
+"69 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/kernel.c
+[v _start_os start_os `(v  1 e 1 0 ]
+{
+"74
+} 0
+"48
+[v _init_zero init_zero `(v  1 e 1 0 ]
+{
+"58
+} 0
+"9
+[v _create_task create_task `(v  1 e 1 0 ]
+{
+[s S54 stack 98 `[32]um 1 stack_data 96 0 `ui 1 stack_size 2 96 ]
+"11
+[s S63 tcb 110 `ui 1 task_ID 2 0 `ui 1 task_PRIOR 2 2 `S54 1 task_STACK 98 4 `*.37(v 1 task_PTR 2 102 `uc 1 task_WREG 1 104 `uc 1 task_BSRREG 1 105 `uc 1 task_STATUSREG 1 106 `E2584 1 task_STATE 1 107 `ui 1 task_time_sleeping 2 108 ]
+[v create_task@new_task new_task `S63  1 a 110 0 ]
+"9
+[v create_task@id id `ui  1 p 2 39 ]
+[v create_task@prior prior `ui  1 p 2 41 ]
+[v create_task@func func `*.37(v  1 p 2 43 ]
+"21
+} 0
+"15 /opt/microchip/xc8/v2.46/pic/sources/c99/common/Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 37 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 33 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 35 ]
+"53
+} 0
+"264 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/mem.c
+[v _SRAMInitHeap SRAMInitHeap `(v  1 e 1 0 ]
+{
+"267
+[v SRAMInitHeap@count count `ui  1 a 2 35 ]
+"266
+[v SRAMInitHeap@pHeap pHeap `*.39uc  1 a 2 33 ]
+"287
+} 0
+"60 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/kernel.c
+[v _config_hardware config_hardware `(v  1 e 1 0 ]
+{
+"67
+} 0
+"130
+[v _config_ports config_ports `(v  1 e 1 0 ]
+{
+"138
+} 0
+"124
+[v _config_adc config_adc `(v  1 e 1 0 ]
+{
+"129
+} 0
+"9 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/user_app.c
+[v _tarefa_1 tarefa_1 `(v  1 e 1 0 ]
+{
+"21
+} 0
+"76 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/kernel.c
+[v _delay_task delay_task `(v  1 e 1 0 ]
+{
+"88
+[v delay_task@stack_size_465 stack_size `ui  1 a 2 22 ]
+"84
+[v delay_task@stack_size stack_size `ui  1 a 2 20 ]
+"76
+[v delay_task@time time `ui  1 p 2 16 ]
+"92
+} 0
+"51 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/scheduler.c
+[v _scheduler scheduler `(ui  1 e 2 0 ]
+{
+"58
+} 0
+"34
+[v _round_robin_scheduler round_robin_scheduler `(ui  1 e 2 0 ]
+{
+"36
+[v round_robin_scheduler@next_task next_task `ui  1 a 2 12 ]
+[v round_robin_scheduler@vez vez `ui  1 a 2 10 ]
+"49
+} 0
+"15 /opt/microchip/xc8/v2.46/pic/sources/c99/common/Umul16.c
+[v i1___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v i1___wmul@product product `ui  1 a 2 4 ]
+"15
+[v i1___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v i1___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"7 /opt/microchip/xc8/v2.46/pic/sources/c99/common/lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 2 ]
+"25
+} 0
+"23 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/user_app.c
+[v _tarefa_2 tarefa_2 `(v  1 e 1 0 ]
+{
+"26
+[v tarefa_2@indice indice `i  1 a 2 31 ]
+"34
+} 0
+"7 /opt/microchip/xc8/v2.46/pic/sources/c99/common/awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 29 ]
+[v ___awmod@counter counter `uc  1 a 1 28 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 24 ]
+[v ___awmod@divisor divisor `i  1 p 2 26 ]
+"34
+} 0
+"140 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/kernel.c
+[v _isr_timer isr_timer `IIH(v  1 e 1 0 ]
+{
+"156
+[v isr_timer@stack_size_520 stack_size `ui  1 a 2 24 ]
+"153
+[v isr_timer@stack_size stack_size `ui  1 a 2 22 ]
+"144
+[v isr_timer@i i `i  1 a 2 26 ]
+"166
+} 0
+"51 /home/mihazs/Dev/so-embarcado/RTOS_2024_1.X/scheduler.c
+[v i2_scheduler scheduler `(ui  1 e 2 0 ]
+{
+"58
+} 0
+"34
+[v i2_round_robin_scheduler round_robin_scheduler `(ui  1 e 2 0 ]
+{
+"36
+[v i2round_robin_scheduler@next_task next_task `ui  1 a 2 12 ]
+[v i2round_robin_scheduler@vez vez `ui  1 a 2 10 ]
+"49
+} 0
+"15 /opt/microchip/xc8/v2.46/pic/sources/c99/common/Umul16.c
+[v i2___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v i2___wmul@product product `ui  1 a 2 4 ]
+"15
+[v i2___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v i2___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"7 /opt/microchip/xc8/v2.46/pic/sources/c99/common/lwmod.c
+[v i2___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v i2___lwmod@counter counter `uc  1 a 1 4 ]
+"7
+[v i2___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v i2___lwmod@divisor divisor `ui  1 p 2 2 ]
+"25
+} 0
